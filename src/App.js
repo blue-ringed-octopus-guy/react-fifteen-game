@@ -1,26 +1,27 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
-      </div>
+      <section className="grid-container">
+        <div className="box red"><span className="number">1</span></div>
+        <div className="box grey"><span className="number">2</span></div>
+        <div className="box red"><span className="number">3</span></div>
+        <div className="box grey"><span className="number">4</span></div>
+        <div className="box red"><span className="number">5</span></div>
+        <div className="box grey"><span className="number">6</span></div>
+        <div className="box red"><span className="number">7</span></div>
+        <div className="box grey"><span className="number">8</span></div>
+        <div className="box red"><span className="number">9</span></div>
+        <div className="box grey"><span className="number">10</span></div>
+        <div className="box red"><span className="number">11</span></div>
+        <div className="box grey"><span className="number">12</span></div>
+        <div className="box red"><span className="number">13</span></div>
+        <div className="box grey"><span className="number">14</span></div>
+        <div className="box red"><span className="number">15</span></div>
+        <div className="box grey"><span className="number">16</span></div>
+      </section>
     );
   }
 }
