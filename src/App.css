@@ -1,15 +1,17 @@
 .grid-container {
-  width: 40%
+  margin-left: 1vw;
+  margin-top: 1vw;
+  width: 30%;
 }
 
 .box {
   float: left;
-  height: 10vw;
-  margin: 0.1%;
-  border: 0.3vw solid black;
+  height: 8vw;
+  margin: 0.2%;
+  border: 0.15vw solid grey;
   width: 22%;
   text-align: center;
-  font-size: 5vw;
+  font-size: 4vw;
   color: white;
   vertical-align: middle;
 }
@@ -19,11 +21,61 @@
 }
 
 .grey {
-  background-color: grey;
+  background-color: black;
 }
 
 .number {
   display: inline-block;
   vertical-align: middle;
-  line-height: 10vw;
+  line-height: 8vw;
+}
+
+.clickable {
+  cursor: pointer;
+}
+
+.new-game-container {
+  margin-top: 100px;
+  text-align: center;
+}
+
+.new-game-button {
+  margin-top: 1.2vw;
+  font-family: Verdana;
+  font-weight: 600;
+  background: grey;
+  border: 0.2vw solid black;
+  cursor: pointer;
+  width: 40%;
+  height: 5vw;;
+  font-size: 1.5vw;
+  text-align: center;
+}
+
+.won-panel {
+  float: left;
+  height: 33.3vw;
+  margin: 0.1%;
+  background-image: linear-gradient(green, rgb(0, 37, 0));
+  border: 0.15vw solid grey;
+  width: 92.2%;
+  text-align: center;
+  font-size: 3vw;
+  color: white;
+  vertical-align: middle;
+}
+
+.won-moves-text {
+  font-size: 2vw;
+}
+
+.moves-element {
+  font-size: 2vw;
+  color: blue;
+  font-weight: 800;
+}
+
+.won-try-again-text {
+  font-size: 1vw;
+  margin-top: 5vw;
 }
